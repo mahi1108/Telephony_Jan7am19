@@ -42,5 +42,56 @@
     </LinearLayout>
 
 
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et3"
+            android:hint="Enter Email Id "/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et4"
+            android:hint="Enter Subject "/>
+
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et5"
+            android:hint="Enter Message "/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attach"
+            android:id="@+id/attach"
+            android:layout_gravity="right"/>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Send Mail"
+                android:id="@+id/sendMail"/>
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Java Mail"
+                android:id="@+id/javaMail"/>
+
+
+    </LinearLayout>
+
+
 
 </LinearLayout>
